@@ -61,6 +61,16 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				popbite: {
+					red: '#F91F1F',
+					black: '#222222',
+					orange: '#FF8A00',
+					yellow: '#FFCB05',
+					blue: '#3355B9',
+					green: '#7ECB20',
+					mint: '#4CAF50',
+					darkBg: '#121212'
 				}
 			},
 			borderRadius: {
