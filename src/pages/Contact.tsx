@@ -5,8 +5,46 @@ import { Button } from '../components/ui/button';
 import { Input } from '../components/ui/input';
 import { Textarea } from '../components/ui/textarea';
 import { Mail, Phone, MapPin } from 'lucide-react';
+import emailjs, { init } from 'emailjs-com';
+import { useRef, useState } from 'react';
 
 const Contact = () => {
+  const [formData, setFormData] = useState({
+    title: '',
+    name: '',
+    time: '',
+    message: '',
+    email: ''
+  });
+  const formRef = useRef<HTMLFormElement | null>(null);
+
+  const handleChange = (e) => {
+    const { id, value } = e.target;
+    setFormData({
+      ...formData,
+      time: new Date().toLocaleString(),
+      [id]: value
+    });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const time = new Date().toLocaleString();
+    emailjs.send('service_a3s7254', 'template_6erg57v', { ...formData, time }, 'sjr2Z1RHQPQnMSJpx')
+      .then((result) => {
+        alert('Message sent successfully');
+        setFormData({
+          title: '',
+          name: '',
+          time: '',
+          message: '',
+          email: ''
+        });
+      }, (error) => {
+        alert('Message failed to send');
+      });
+  };
+
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
@@ -24,25 +62,69 @@ const Contact = () => {
           <div className="container mx-auto px-4">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
               <div>
-                <h2 className="text-2xl font-bold mb-6 relative fancy-underline">Send Us a Message</h2>
-                <form className="space-y-6">
+                <form className="space-y-6" onSubmit={handleSubmit} ref={(form) => (formRef.current = form)}>
+                  {/* <form className="space-y-6" onSubmit={handleSubmit}> */}
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div>
                       <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">Name</label>
-                      <Input id="name" placeholder="Your name" />
+                      <Input
+                        id="name"
+                        placeholder="Your name"
+                        value={formData.name}
+                        onChange={handleChange}
+                      />
                     </div>
+                    <input type="hidden" name="time" value={formData.time} />
                     <div>
                       <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">Email</label>
-                      <Input id="email" type="email" placeholder="your@email.com" />
+                      <Input
+                        id="email"
+                        type="email"
+                        placeholder="your@email.com"
+                        value={formData.email}
+                        onChange={handleChange}
+                      />
                     </div>
                   </div>
                   <div>
-                    <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-1">Subject</label>
-                    <Input id="subject" placeholder="How can we help you?" />
+                    <label htmlFor="title" className="block text-sm font-medium text-gray-700 mb-1">
+                      Subject
+                    </label>
+                    <select
+                      id="title"
+                      name="title"
+                      value={formData.title}
+                      onChange={handleChange}
+                      className="block w-full px-4 py-2 border  rounded-lg focus:popbite-black focus:ring-popbite-black-50 focus:border-black outline-black transition-all text-sm font-medium text-gray-700"
+                      required
+                    >
+                      <option value="">Select a subject</option>
+                      <option value="General Inquiry">General Inquiry</option>
+                      <option value="Product Information">Product Information</option>
+                      <option value="Bulk Order">Bulk Order</option>
+                      <option value="Feedback">Feedback</option>
+                      <option value="Partnership">Partnership</option>
+                      <option value="Other">Other</option>
+                    </select>
                   </div>
+                  {/* <div>
+                    <label htmlFor="title" className="block text-sm font-medium text-gray-700 mb-1">Subject</label>
+                    <Input
+                      id="title"
+                      placeholder="How can we help you?"
+                      value={formData.title}
+                      onChange={handleChange}
+                    />
+                  </div> */}
                   <div>
                     <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">Message</label>
-                    <Textarea id="message" placeholder="Your message" rows={5} />
+                    <Textarea
+                      id="message"
+                      placeholder="Your message"
+                      rows={5}
+                      value={formData.message}
+                      onChange={handleChange}
+                    />
                   </div>
                   <Button className="bg-popbite-orange hover:bg-popbite-red text-white w-full">
                     Send Message
@@ -113,7 +195,23 @@ const Contact = () => {
             </div>
           </div>
         </section>
-
+        {/* Map Section */}
+        <section className="py-8">
+          <div className="container mx-auto px-4">
+            <div className="aspect-w-16 aspect-h-12">
+              <iframe
+             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.208193321672!2d73.06655707485454!3d20.737027680869376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be0f8f1183b7c8b%3A0x9a7bc8e73a1cf943!2sPOPBITE%20CONSUMER%20PVT.LTD!5e0!3m2!1sen!2sin!4v1713965480000!5m2!1sen!2sin"
+                width="600"
+                height="450"
+                style={{ border: 0, width: '100%', height: '450px' }}
+                allowFullScreen={true}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Google Map"
+              ></iframe>
+            </div>
+          </div>
+        </section>
         <section className="py-16 bg-gray-50">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-3xl font-bold mb-6">Find Us on Social Media</h2>
