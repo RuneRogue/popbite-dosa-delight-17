@@ -40,12 +40,12 @@ const Navbar = () => {
           </nav>
 
           {/* Action Buttons */}
-          <div className="hidden md:flex items-center space-x-4">
+          {/* <div className="hidden md:flex items-center space-x-4">
             <Button className="bg-popbite-orange hover:bg-popbite-red text-white">
               <ShoppingBag className="h-4 w-4 mr-2" />
               Shop Now
             </Button>
-          </div>
+          </div> */}
 
           {/* Mobile Menu Button */}
           <button 

@@ -62,34 +62,20 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <Link to="/products" className="text-gray-300 hover:text-popbite-orange transition-colors">
-                  Classic Salted
+                  Multi Grain Dosa Chips
                 </Link>
               </li>
               <li>
                 <Link to="/products" className="text-gray-300 hover:text-popbite-orange transition-colors">
-                  Magic Masala
+                  Two Grain Dosa Chips  
                 </Link>
               </li>
               <li>
                 <Link to="/products" className="text-gray-300 hover:text-popbite-orange transition-colors">
-                  Tomato Twist
+                  Explore All
                 </Link>
               </li>
-              <li>
-                <Link to="/products" className="text-gray-300 hover:text-popbite-orange transition-colors">
-                  Pani Puri
-                </Link>
-              </li>
-              <li>
-                <Link to="/products" className="text-gray-300 hover:text-popbite-orange transition-colors">
-                  Cheese Chilli
-                </Link>
-              </li>
-              <li>
-                <Link to="/products" className="text-gray-300 hover:text-popbite-orange transition-colors">
-                  Cream & Onion
-                </Link>
-              </li>
+           
             </ul>
           </div>
 

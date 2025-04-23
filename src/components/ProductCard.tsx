@@ -13,7 +13,7 @@ export interface ProductProps {
   bgColor: string;
 }
 
-const ProductCard = ({ id, name, flavor, description, price, image, bgColor }: ProductProps) => {
+const ProductCard = ({ id, name, flavor, description, image, bgColor }: ProductProps) => {
   return (
     <div className={`rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 group ${bgColor}`}>
       <div className="relative">
@@ -27,11 +27,11 @@ const ProductCard = ({ id, name, flavor, description, price, image, bgColor }: P
         <h3 className="text-xl font-bold mb-1">{flavor}</h3>
         <p className="text-gray-600 mb-4 line-clamp-2">{description}</p>
         <div className="flex justify-between items-center">
-          <span className="text-lg font-bold">₹{price}</span>
-          <Button className="bg-popbite-orange hover:bg-popbite-red text-white">
+          {/* <span className="text-lg font-bold">₹{price}</span> */}
+          {/* <Button className="bg-popbite-orange hover:bg-popbite-red text-white">
             <ShoppingBag className="h-4 w-4 mr-2" />
             Add to Cart
-          </Button>
+          </Button> */}
         </div>
       </div>
     </div>
