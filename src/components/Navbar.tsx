@@ -17,10 +17,11 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center">
-            <span className="text-2xl font-bold">
-              <span className="text-popbite-red">pop</span>
-              <span className="text-popbite-black">bite</span>
-            </span>
+            <img 
+              src="/lovable-uploads/logo2.png" 
+              alt="Popbite Logo" 
+              className="h-12 md:h-16" 
+            />
           </Link>
 
           {/* Desktop Navigation */}

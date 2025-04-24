@@ -9,10 +9,11 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand Column */}
           <div className="space-y-4">
-            <h3 className="text-xl font-bold">
-              <span className="text-popbite-red">pop</span>
-              <span className="text-white">bite</span>
-            </h3>
+            <img 
+                src="/lovable-uploads/logo.png" 
+                alt="Popbite Logo" 
+                className="h-16 bg-white p-2 rounded-lg" 
+              />
             <p className="text-gray-300">
               World's first Dosa Chips - A healthy snacking revolution from India.
             </p>
@@ -61,13 +62,13 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Our Products</h4>
             <ul className="space-y-2">
               <li>
-                <Link to="/products" className="text-gray-300 hover:text-popbite-orange transition-colors">
+                <Link to="/products?type=Multi Grain" className="text-gray-300 hover:text-popbite-orange transition-colors">
                   Multi Grain Dosa Chips
                 </Link>
               </li>
               <li>
-                <Link to="/products" className="text-gray-300 hover:text-popbite-orange transition-colors">
-                  Two Grain Dosa Chips  
+                <Link to="/products?type=Two Grain" className="text-gray-300 hover:text-popbite-orange transition-colors">
+                  Two Grain Dosa Chips
                 </Link>
               </li>
               <li>
@@ -75,7 +76,7 @@ const Footer = () => {
                   Explore All
                 </Link>
               </li>
-           
+
             </ul>
           </div>
 
@@ -83,17 +84,18 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Contact Us</h4>
             <address className="not-italic text-gray-300 space-y-2">
-              <p>123 Snack Avenue</p>
-              <p>Flavor City, FC 12345</p>
-              <p>India</p>
+              <p>Shed No.2, Opp. of Dinkar Bhavan,</p>
+              <p>Beside Majigam Lake,</p>
+              <p> N.H 48, Chikhli-396521,</p>
+              <p>Gujarat, India</p>
               <p className="pt-2">
                 <a href="tel:+1234567890" className="hover:text-popbite-orange transition-colors">
-                  +1 (234) 567-890
+                  +91 7359077882
                 </a>
               </p>
               <p>
                 <a href="mailto:hello@popbite.com" className="hover:text-popbite-orange transition-colors">
-                  hello@popbite.com
+                  contactpopbites@gmail.com
                 </a>
               </p>
             </address>
