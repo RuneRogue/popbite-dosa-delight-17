@@ -202,7 +202,7 @@ const Contact = () => {
         </section>
 
         {/* Map */}
-        <section className="py-8">
+        {/* <section className="py-8">
           <div className="container mx-auto px-4">
             <div className="aspect-w-16 aspect-h-12">
               <iframe
@@ -217,7 +217,7 @@ const Contact = () => {
               />
             </div>
           </div>
-        </section>
+        </section> */}
       </main>
       <Footer />
     </div>

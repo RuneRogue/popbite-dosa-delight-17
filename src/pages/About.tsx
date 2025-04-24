@@ -46,7 +46,17 @@ const About = () => {
                 </p>
               </div>
               
-              <div className="relative z-10 grid grid-cols-2 gap-16">
+              <div className="relative z-10 grid grid-cols-2 gap-6 mt-10">
+                <img
+                  src="/lovable-uploads/banner1.jpg"
+                  alt="Classic Salted Dosa Chips"
+                  className="w-full h-auto shadow-lg rounded-lg transform hover:scale-100 transition-transform duration-300"
+                />
+                <img
+                  src="/lovable-uploads/banner2.jpg"
+                  alt="Magic Masala Dosa Chips"
+                  className="w-full h-auto shadow-lg rounded-lg transform hover:scale-100 transition-transform duration-300 mt-10"
+                />
                 <img
                   src="/lovable-uploads/banner1.jpg"
                   alt="Classic Salted Dosa Chips"
