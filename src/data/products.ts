@@ -27,7 +27,7 @@ export const products: Product[] = [
     description: "Our original dosa chips with just the right amount of salt for a perfect crunch and flavor in every bite.",
     price: 40,
     image: "/lovable-uploads/Multi_Grain/PaniPuri.jpg",
-    bgColor: "bg-orange-50",
+    bgColor: "bg-green-50",
     ingredients: ["Rice flour", "Urad dal flour", "Salt", "Vegetable oil"],
     nutritionalInfo: {
       calories: 120,
@@ -46,7 +46,7 @@ export const products: Product[] = [
     description: "Our original dosa chips with just the right amount of salt for a perfect crunch and flavor in every bite.",
     price: 40,
     image: "/lovable-uploads/Multi_Grain/HotSpicy.png",
-    bgColor: "bg-orange-50",
+    bgColor: "bg-blue-50",
     ingredients: ["Rice flour", "Urad dal flour", "Salt", "Vegetable oil"],
     nutritionalInfo: {
       calories: 120,
@@ -65,7 +65,7 @@ export const products: Product[] = [
     description: "Our original dosa chips with just the right amount of salt for a perfect crunch and flavor in every bite.",
     price: 40,
     image: "/lovable-uploads/Multi_Grain/PeruChilli.png",
-    bgColor: "bg-orange-50",
+    bgColor: "bg-fuchsia-50",
     ingredients: ["Rice flour", "Urad dal flour", "Salt", "Vegetable oil"],
     nutritionalInfo: {
       calories: 120,
@@ -84,7 +84,7 @@ export const products: Product[] = [
     description: "Our original dosa chips with just the right amount of salt for a perfect crunch and flavor in every bite.",
     price: 40,
     image: "/lovable-uploads/Multi_Grain/Cheese.jpg",
-    bgColor: "bg-orange-50",
+    bgColor: "bg-yellow-50",
     ingredients: ["Rice flour", "Urad dal flour", "Salt", "Vegetable oil"],
     nutritionalInfo: {
       calories: 120,
@@ -103,7 +103,7 @@ export const products: Product[] = [
     description: "Our original dosa chips with just the right amount of salt for a perfect crunch and flavor in every bite.",
     price: 40,
     image: "/lovable-uploads/Multi_Grain/OilFree.jpg",
-    bgColor: "bg-orange-50",
+    bgColor: "bg-cyan-50",
     ingredients: ["Rice flour", "Urad dal flour", "Salt", "Vegetable oil"],
     nutritionalInfo: {
       calories: 120,
@@ -122,7 +122,7 @@ export const products: Product[] = [
     description: "Our original dosa chips with just the right amount of salt for a perfect crunch and flavor in every bite.",
     price: 40,
     image: "/lovable-uploads/Multi_Grain/OriginalStyle.jpg",
-    bgColor: "bg-orange-50",
+    bgColor: "bg-purple-50",
     ingredients: ["Rice flour", "Urad dal flour", "Salt", "Vegetable oil"],
     nutritionalInfo: {
       calories: 120,
@@ -141,7 +141,7 @@ export const products: Product[] = [
     description: "Tangy tomato flavor with a hint of spice that makes these chips irresistibly delicious.",
     price: 40,
     image: "/lovable-uploads/Multi_Grain/PeriPeri.jpg",
-    bgColor: "bg-red-50",
+    bgColor: "bg-orange-50",
     ingredients: ["Rice flour", "Urad dal flour", "Tomato powder", "Spices", "Salt", "Vegetable oil"],
     nutritionalInfo: {
       calories: 125,
@@ -160,7 +160,7 @@ export const products: Product[] = [
     description: "Inspired by the popular street food, these chips bring the tangy and spicy flavors of pani puri.",
     price: 40,
     image: "/lovable-uploads/Multi_Grain/Tomato.jpg",
-    bgColor: "bg-green-50",
+    bgColor: "bg-red-50",
     ingredients: ["Rice flour", "Urad dal flour", "Mint", "Tamarind", "Spices", "Salt", "Vegetable oil"],
     nutritionalInfo: {
       calories: 130,
@@ -198,7 +198,7 @@ export const products: Product[] = [
     description: "The perfect balance of cheesy goodness with a spicy chili kick in every crunchy bite.",
     price: 40,
     image: "/lovable-uploads/Two_Grains/PaniPuri.png",
-    bgColor: "bg-yellow-50",
+    bgColor: "bg-green-50",
     ingredients: ["Rice flour", "Urad dal flour", "Cheese powder", "Chilli powder", "Salt", "Vegetable oil"],
     nutritionalInfo: {
       calories: 140,
@@ -217,7 +217,7 @@ export const products: Product[] = [
     description: "The perfect balance of cheesy goodness with a spicy chili kick in every crunchy bite.",
     price: 40,
     image: "/lovable-uploads/Two_Grains/TomatoTwist.png",
-    bgColor: "bg-yellow-50",
+    bgColor: "bg-red-50",
     ingredients: ["Rice flour", "Urad dal flour", "Cheese powder", "Chilli powder", "Salt", "Vegetable oil"],
     nutritionalInfo: {
       calories: 140,
@@ -236,7 +236,7 @@ export const products: Product[] = [
     description: "The perfect balance of cheesy goodness with a spicy chili kick in every crunchy bite.",
     price: 40,
     image: "/lovable-uploads/Two_Grains/CreamOnion.png",
-    bgColor: "bg-yellow-50",
+    bgColor: "bg-cyan-50",
     ingredients: ["Rice flour", "Urad dal flour", "Cheese powder", "Chilli powder", "Salt", "Vegetable oil"],
     nutritionalInfo: {
       calories: 140,
@@ -274,7 +274,7 @@ export const products: Product[] = [
     description: "The perfect balance of cheesy goodness with a spicy chili kick in every crunchy bite.",
     price: 40,
     image: "/lovable-uploads/Two_Grains/ClassicSalted.png",
-    bgColor: "bg-yellow-50",
+    bgColor: "bg-orange-50",
     ingredients: ["Rice flour", "Urad dal flour", "Cheese powder", "Chilli powder", "Salt", "Vegetable oil"],
     nutritionalInfo: {
       calories: 140,

@@ -19,9 +19,7 @@ const ProductList = ({ products }: ProductListProps) => {
   useEffect(() => {
     if (typeFromUrl) {
       setFilter(typeFromUrl);
-    } else {
-      setFilter(null); // default to "All"
-    }
+    } 
   }, [typeFromUrl]);
 
   // Clean URL (remove query param) if type is null or invalid
