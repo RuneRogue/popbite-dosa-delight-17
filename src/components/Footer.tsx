@@ -18,14 +18,11 @@ const Footer = () => {
               World's first Dosa Chips - A healthy snacking revolution from India.
             </p>
             <div className="flex space-x-4">
-              <a href="https://facebook.com" className="hover:text-popbite-orange transition-colors" aria-label="Facebook">
+              <a href="https://www.facebook.com/popbites8" className="hover:text-popbite-orange transition-colors" aria-label="Facebook">
                 <Facebook size={20} />
               </a>
-              <a href="https://instagram.com" className="hover:text-popbite-orange transition-colors" aria-label="Instagram">
+              <a href="https://www.instagram.com/popbite.dosachips?igsh=MXMxbHIyb2h6dWZwMA==" className="hover:text-popbite-orange transition-colors" aria-label="Instagram">
                 <Instagram size={20} />
-              </a>
-              <a href="https://twitter.com" className="hover:text-popbite-orange transition-colors" aria-label="Twitter">
-                <Twitter size={20} />
               </a>
             </div>
           </div>

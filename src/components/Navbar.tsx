@@ -29,11 +29,11 @@ const Navbar = () => {
             <Link to="/" className="font-medium hover:text-popbite-orange transition-colors">
               Home
             </Link>
-            <Link to="/products" className="font-medium hover:text-popbite-orange transition-colors">
-              Products
-            </Link>
             <Link to="/about" className="font-medium hover:text-popbite-orange transition-colors">
               About Us
+            </Link>
+            <Link to="/products" className="font-medium hover:text-popbite-orange transition-colors">
+              Products
             </Link>
             <Link to="/contact" className="font-medium hover:text-popbite-orange transition-colors">
               Contact
