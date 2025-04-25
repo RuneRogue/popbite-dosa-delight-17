@@ -1,11 +1,10 @@
-
 import {
   ShieldCheck,
   Leaf,
-  Award,
-  Snail,
-  TimerOff,
-  Wheat
+  HeartPulse,
+  BadgeCheck,
+  Smile,
+  Sandwich
 } from 'lucide-react';
 
 interface FeatureProps {
@@ -29,36 +28,37 @@ const FeatureCard = ({ icon, title, description }: FeatureProps) => {
 const Features = () => {
   const features = [
     {
-      icon: <ShieldCheck size={24} />,
-      title: "All Natural",
-      description: "Made with 100% natural ingredients with no artificial preservatives or additives."
-    },
-    {
-      icon: <Leaf size={24} />,
-      title: "Healthier Choice",
-      description: "Lower in fat than traditional chips, making them a smarter snacking option."
-    },
-    {
-      icon: <Award size={24} />,
-      title: "Premium Quality",
-      description: "Crafted with the finest ingredients for unmatched flavor and crunch."
-    },
-    {
-      icon: <Snail size={24} />,
-      title: "Low Sodium",
-      description: "Less salt than regular chips, better for your health without compromising on taste."
-    },
-    {
-      icon: <TimerOff size={24} />,
+      icon: <ShieldCheck size={24} />, // Represents safety/health
       title: "No Trans Fat",
       description: "Zero trans fats making them a heart-friendly snacking option."
     },
     {
-      icon: <Wheat size={24} />,
-      title: "Gluten Free",
-      description: "Naturally gluten-free, perfect for those with dietary restrictions."
+      icon: <Leaf size={24} />, // Represents natural/clean ingredients
+      title: "No Added Protein",
+      description: "Clean-label ingredients, just the good stuff."
+    },
+    {
+      icon: <HeartPulse size={24} />, // Healthier choice
+      title: "Healthier Choice",
+      description: "Lower in fat than traditional chips, making them a smarter snacking option."
+    },
+    {
+      icon: <BadgeCheck size={24} />, // Premium or certified quality
+      title: "Premium Quality",
+      description: "Crafted with the finest ingredients for unmatched flavor and crunch."
+    },
+    {
+      icon: <Smile size={24} />, // Happiness/guilt-free
+      title: "Guilt-Free Indulgence",
+      description: "Snack without the guilt – indulge in a healthier, crunchy treat with all the flavor, none of the excess."
+    },
+    {
+      icon: <Sandwich size={24} />, // Represents ready-to-eat/food
+      title: "Ready-to-Eat Convenience",
+      description: "Anytime, anywhere snacking – no prep needed."
     }
   ];
+  
 
   return (
     <section className="py-16 bg-gray-50">
@@ -68,7 +68,7 @@ const Features = () => {
             Why Choose <span className="text-popbite-orange">Popbite</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Our dosa chips aren't just delicious, they're made with your health and satisfaction in mind.
+            Our dosa chips are a healthier choice compared to traditional options.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

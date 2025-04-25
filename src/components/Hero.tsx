@@ -13,8 +13,7 @@ const Hero = () => {
               World's First <span className="text-popbite-orange">Dosa Chips</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-700">
-              Deliciously crunchy, naturally nutritious. Discover our multigrain and two-grain dosa chips, 
-              crafted for health-conscious snack lovers.
+            The world’s first and largest manufacturer of innovative, ready-to-eat dosa chips. We blend tradition with technology to offer a crispy, crunchy snack loved across the globe.
             </p>
             <div className="flex flex-wrap gap-4">
               <Button 

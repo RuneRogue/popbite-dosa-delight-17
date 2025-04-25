@@ -61,10 +61,10 @@ const Contact = () => {
     const time = new Date().toLocaleString();
     emailjs
       .send(
-        'service_a3s7254',
-        'template_6erg57v',
+        'service_wsntqv2',
+        'template_ht7e0n9',
         { ...formData, time },
-        'sjr2Z1RHQPQnMSJpx'
+        'o97rm7QBwwt_2wniK'
       )
       .then(
         () => {
@@ -131,12 +131,11 @@ const Contact = () => {
                       className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-popbite-black transition-all text-sm font-medium text-gray-700"
                     >
                       <option value="">Select a subject</option>
+                      <option value="Distributorship">Distributorship</option>
                       <option value="General Inquiry">General Inquiry</option>
                       <option value="Product Information">Product Information</option>
                       <option value="Bulk Order">Bulk Order</option>
                       <option value="Feedback">Feedback</option>
-                      <option value="Partnership">Partnership</option>
-                      <option value="Other">Other</option>
                     </select>
                     {errors.title && <p className="text-orange-600 text-sm mt-1">{errors.title}</p>}
                   </div>
@@ -163,7 +162,7 @@ const Contact = () => {
                     <Mail className="mr-4 text-popbite-orange" size={24} />
                     <div>
                       <h3 className="font-semibold text-lg">Email</h3>
-                      <p className="text-gray-600">contactpopbites@gmail.com</p>
+                      <p className="text-gray-600">contact@popbite.in</p>
                     </div>
                   </div>
                   <div className="flex items-start">
