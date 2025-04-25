@@ -7,7 +7,6 @@ export interface Product {
   price: number;
   image: string;
   bgColor: string;
-  ingredients: string[];
   nutritionalInfo: {
     calories: number;
     protein: number;
@@ -28,7 +27,6 @@ export const products: Product[] = [
     price: 40,
     image: "/lovable-uploads/Multi_Grain/PaniPuri.jpg",
     bgColor: "bg-green-50",
-    ingredients: ["Rice flour", "Urad dal flour", "Salt", "Vegetable oil"],
     nutritionalInfo: {
       calories: 120,
       protein: 2,
@@ -47,7 +45,6 @@ export const products: Product[] = [
     price: 40,
     image: "/lovable-uploads/Multi_Grain/HotSpicy.png",
     bgColor: "bg-blue-50",
-    ingredients: ["Rice flour", "Urad dal flour", "Salt", "Vegetable oil"],
     nutritionalInfo: {
       calories: 120,
       protein: 2,
@@ -66,7 +63,6 @@ export const products: Product[] = [
     price: 40,
     image: "/lovable-uploads/Multi_Grain/PeruChilli.png",
     bgColor: "bg-fuchsia-50",
-    ingredients: ["Rice flour", "Urad dal flour", "Salt", "Vegetable oil"],
     nutritionalInfo: {
       calories: 120,
       protein: 2,
@@ -81,11 +77,10 @@ export const products: Product[] = [
     id: "Multi Grain",
     name: "Dosa Chips",
     flavor: "Cheese",
-    description: "A crunchy multigrain snack with a rich cheesy twist — the perfect blend of health and indulgence for any time of day.",
+    description: "A crunchy multigrain snack with a rich cheesy twist-the perfect blend of health and indulgence for any time of day.",
     price: 40,
     image: "/lovable-uploads/Multi_Grain/Cheese.jpg",
     bgColor: "bg-yellow-50",
-    ingredients: ["Rice flour", "Urad dal flour", "Salt", "Vegetable oil"],
     nutritionalInfo: {
       calories: 120,
       protein: 2,
@@ -104,7 +99,6 @@ export const products: Product[] = [
     price: 40,
     image: "/lovable-uploads/Multi_Grain/OilFree.jpg",
     bgColor: "bg-cyan-50",
-    ingredients: ["Rice flour", "Urad dal flour", "Salt", "Vegetable oil"],
     nutritionalInfo: {
       calories: 120,
       protein: 2,
@@ -123,7 +117,6 @@ export const products: Product[] = [
     price: 40,
     image: "/lovable-uploads/Multi_Grain/OriginalStyle.jpg",
     bgColor: "bg-purple-50",
-    ingredients: ["Rice flour", "Urad dal flour", "Salt", "Vegetable oil"],
     nutritionalInfo: {
       calories: 120,
       protein: 2,
@@ -142,7 +135,6 @@ export const products: Product[] = [
     price: 40,
     image: "/lovable-uploads/Multi_Grain/PeriPeri.jpg",
     bgColor: "bg-orange-50",
-    ingredients: ["Rice flour", "Urad dal flour", "Tomato powder", "Spices", "Salt", "Vegetable oil"],
     nutritionalInfo: {
       calories: 125,
       protein: 2,
@@ -161,7 +153,6 @@ export const products: Product[] = [
     price: 40,
     image: "/lovable-uploads/Multi_Grain/Tomato.jpg",
     bgColor: "bg-red-50",
-    ingredients: ["Rice flour", "Urad dal flour", "Mint", "Tamarind", "Spices", "Salt", "Vegetable oil"],
     nutritionalInfo: {
       calories: 130,
       protein: 2,
@@ -180,7 +171,6 @@ export const products: Product[] = [
     price: 40,
     image: "/lovable-uploads/Two_Grains/CheeseChilli.png",
     bgColor: "bg-yellow-50",
-    ingredients: ["Rice flour", "Urad dal flour", "Cheese powder", "Chilli powder", "Salt", "Vegetable oil"],
     nutritionalInfo: {
       calories: 140,
       protein: 3,
@@ -195,11 +185,10 @@ export const products: Product[] = [
     id: "Two Grain",
     name: "Dosa Chips",
     flavor: "Pani Puri",
-    description: "Tangy, spicy, and irresistibly chatpata—this one’s a street food lover’s dream, now in the form of crispy dosa chips.",
+    description: "Tangy, spicy, and irresistibly chatpata-this one’s a street food lover’s dream, now in the form of crispy dosa chips.",
     price: 40,
     image: "/lovable-uploads/Two_Grains/PaniPuri.png",
     bgColor: "bg-green-50",
-    ingredients: ["Rice flour", "Urad dal flour", "Cheese powder", "Chilli powder", "Salt", "Vegetable oil"],
     nutritionalInfo: {
       calories: 140,
       protein: 3,
@@ -218,7 +207,6 @@ export const products: Product[] = [
     price: 40,
     image: "/lovable-uploads/Two_Grains/TomatoTwist.png",
     bgColor: "bg-red-50",
-    ingredients: ["Rice flour", "Urad dal flour", "Cheese powder", "Chilli powder", "Salt", "Vegetable oil"],
     nutritionalInfo: {
       calories: 140,
       protein: 3,
@@ -233,11 +221,10 @@ export const products: Product[] = [
     id: "Two Grain",
     name: "Dosa Chips",
     flavor: "Cream & Onion",
-    description: "A smooth blend of creamy richness and zesty onion packed into every crisp dosa bite. Your classic favorite, now with a South Indian crunch.",
+    description: "A smooth blend of creamy richness and zesty onion packed into every crisp dosa bite. Your classic favorite, reimagined in a bold, irresistible form.",
     price: 40,
     image: "/lovable-uploads/Two_Grains/CreamOnion.png",
     bgColor: "bg-cyan-50",
-    ingredients: ["Rice flour", "Urad dal flour", "Cheese powder", "Chilli powder", "Salt", "Vegetable oil"],
     nutritionalInfo: {
       calories: 140,
       protein: 3,
@@ -256,7 +243,6 @@ export const products: Product[] = [
     price: 40,
     image: "/lovable-uploads/Two_Grains/MagicMasala.png",
     bgColor: "bg-blue-50",
-    ingredients: ["Rice flour", "Urad dal flour", "Mixed spices", "Salt", "Vegetable oil"],
     nutritionalInfo: {
       calories: 130,
       protein: 2,
@@ -275,7 +261,6 @@ export const products: Product[] = [
     price: 40,
     image: "/lovable-uploads/Two_Grains/ClassicSalted.png",
     bgColor: "bg-orange-50",
-    ingredients: ["Rice flour", "Urad dal flour", "Cheese powder", "Chilli powder", "Salt", "Vegetable oil"],
     nutritionalInfo: {
       calories: 140,
       protein: 3,

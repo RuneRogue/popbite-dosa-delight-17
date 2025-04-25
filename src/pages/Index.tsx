@@ -15,24 +15,23 @@ const Index = () => {
   const multiGrainProduct = {
     id: "multigrain",
     name: "Multi Grain Dosa Chips",
-    description: "Experience the perfect harmony of taste and nutrition with our Multi Grain Dosa Chips. We've combined traditional dosa making techniques with a blend of nutritious grains to create a snack that's as good for your body as it is for your taste buds.",
+    description: "Experience the perfect harmony of flavor and tradition with our Multi Grain Dosa Chips. Crafted using time-honored dosa techniques and a unique blend of grains for a bold, unforgettable crunch.",
     features: [
-      "Made with a blend of 5+ nutritious grains",
+      "Made with a blend of 5 nutritious grains",
       "High in fiber and protein",
-      "No artificial preservatives or flavors",
       "Perfect for on-the-go snacking",
-      "Ideal complement for dips and spreads"
+      "Bold, savory flavors you'll crave"
     ],
     ingredients: [
       "Rice flour", "Wheat flour", "Ragi flour", "Jowar flour", "Bajra flour",
       "Cold-pressed oils"
     ],
     nutritionalInfo: {
-      calories: "120 kcal",
-      protein: "4g",
-      carbs: "18g",
-      fat: "4g",
-      fiber: "3g"
+      protein: "10g*",
+      fibers: "8g*",
+      fat: "0g",
+      cholesterol: "0.0mg"
+      
     },
     bgColor: "bg-popbite-orange/10",
     images: [
@@ -45,23 +44,21 @@ const Index = () => {
   const twoGrainProduct = {
     id: "twograin",
     name: "Two Grain Dosa Chips",
-    description: "Our Two Grain Dosa Chips offer a lighter yet equally satisfying snacking experience. Made with a simplified recipe focusing on two key grains, these chips deliver a clean, wholesome taste profile with the perfect crunch.",
+    description: "Our Two Grain Dosa Chips bring simplicity and flavor together in every bite. With just two carefully chosen grains, they offer a crisp, satisfying snack that lets the ingredients shine.",
     features: [
       "Made with two carefully selected grains",
       "Light and perfectly crispy texture",
-      "No artificial preservatives or flavors",
       "Versatile for any snacking occasion",
-      "Lower calorie option"
+      "Snack that stands out, yet keeps it simple"
     ],
     ingredients: [
       "Rice flour", "Urad dal flour", "Cold-pressed oils", "Rock salt", "Selected spices"
     ],
     nutritionalInfo: {
-      calories: "110 kcal",
-      protein: "3g",
-      carbs: "16g",
-      fat: "4g",
-      fiber: "2g"
+      protein: "10g*",
+      fibers: "5g*",
+      fat: "0g",
+      cholesterol: "0.0mg"
     },
     bgColor: "bg-popbite-green/10",
     images: [
@@ -85,8 +82,7 @@ const Index = () => {
                 Our Delicious Range
               </h2>
               <p className="text-gray-600 max-w-2xl mx-auto">
-                Discover the perfect blend of taste and nutrition with our range of dosa chips,
-                created to satisfy your cravings while keeping your health goals on track.
+                Discover the perfect blend of tradition and crunch with our one-of-a-kind dosa chips — bold, addictive, and unlike anything you’ve tasted before.
               </p>
             </div>
 
@@ -94,7 +90,7 @@ const Index = () => {
               {/* Multi Grain Product */}
               <div className="bg-orange-50 from-popbite-orange/10 to-popbite-cream rounded-2xl p-8 card-hover">
                 <img
-                  src="/lovable-uploads/Cat1.jpg"
+                  src="/lovable-uploads/Cat3.png"
                   alt="Multi Grain Dosa Chips"
                   className="rounded-lg h-64 object-cover object-center mx-auto mb-6"
                 />
@@ -111,34 +107,26 @@ const Index = () => {
                     ))}
                   </ul>
                 </div>
-                <div>
-                  <h3 className="text-xl font-semibold mb-3 text-popbite-brown mt-3">Ingredients:</h3>
-                  <p className="text-gray-700 mb-3">{multiGrainProduct.ingredients.join(", ")}</p>
-                </div>
 
                 <div>
-                  <h3 className="text-xl font-semibold mb-3 text-popbite-brown">Nutritional Information</h3>
+                  <h3 className="text-xl font-semibold mb-3 text-popbite-brown mt-3">Nutritional Information(Approx)*</h3>
                   <div className="bg-white rounded-lg p-4 shadow-sm">
-                    <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
-                      <div className="text-center">
-                        <p className="text-gray-600 text-sm">Calories</p>
-                        <p className="font-bold text-popbite-brown">{multiGrainProduct.nutritionalInfo.calories}</p>
-                      </div>
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                       <div className="text-center">
                         <p className="text-gray-600 text-sm">Protein</p>
                         <p className="font-bold text-popbite-brown">{multiGrainProduct.nutritionalInfo.protein}</p>
                       </div>
                       <div className="text-center">
-                        <p className="text-gray-600 text-sm">Carbs</p>
-                        <p className="font-bold text-popbite-brown">{multiGrainProduct.nutritionalInfo.carbs}</p>
+                        <p className="text-gray-600 text-sm">Dietary Fiber</p>
+                        <p className="font-bold text-popbite-brown">{multiGrainProduct.nutritionalInfo.fibers}</p>
                       </div>
                       <div className="text-center">
-                        <p className="text-gray-600 text-sm">Fat</p>
+                        <p className="text-gray-600 text-sm">Trans Fat</p>
                         <p className="font-bold text-popbite-brown">{multiGrainProduct.nutritionalInfo.fat}</p>
                       </div>
                       <div className="text-center">
-                        <p className="text-gray-600 text-sm">Fiber</p>
-                        <p className="font-bold text-popbite-brown">{multiGrainProduct.nutritionalInfo.fiber}</p>
+                        <p className="text-gray-600 text-sm">Cholesterol</p>
+                        <p className="font-bold text-popbite-brown">{multiGrainProduct.nutritionalInfo.cholesterol}</p>
                       </div>
                     </div>
                   </div>
@@ -173,34 +161,26 @@ const Index = () => {
                     ))}
                   </ul>
                 </div>
-                <div>
-                  <h3 className="text-xl font-semibold mb-3 text-popbite-brown mt-3">Ingredients:</h3>
-                  <p className="text-gray-700 mb-3">{twoGrainProduct.ingredients.join(", ")}</p>
-                </div>
 
                 <div>
-                  <h3 className="text-xl font-semibold mb-3 text-popbite-brown">Nutritional Information</h3>
+                  <h3 className="text-xl font-semibold mb-3 text-popbite-brown mt-3">Nutritional Information(Approx)*</h3>
                   <div className="bg-white rounded-lg p-4 shadow-sm">
-                    <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
-                      <div className="text-center">
-                        <p className="text-gray-600 text-sm">Calories</p>
-                        <p className="font-bold text-popbite-brown">{twoGrainProduct.nutritionalInfo.calories}</p>
-                      </div>
-                      <div className="text-center">
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                    <div className="text-center">
                         <p className="text-gray-600 text-sm">Protein</p>
                         <p className="font-bold text-popbite-brown">{twoGrainProduct.nutritionalInfo.protein}</p>
                       </div>
                       <div className="text-center">
-                        <p className="text-gray-600 text-sm">Carbs</p>
-                        <p className="font-bold text-popbite-brown">{twoGrainProduct.nutritionalInfo.carbs}</p>
+                        <p className="text-gray-600 text-sm">Dietary Fiber</p>
+                        <p className="font-bold text-popbite-brown">{twoGrainProduct.nutritionalInfo.fibers}</p>
                       </div>
                       <div className="text-center">
-                        <p className="text-gray-600 text-sm">Fat</p>
+                        <p className="text-gray-600 text-sm">Trans Fat</p>
                         <p className="font-bold text-popbite-brown">{twoGrainProduct.nutritionalInfo.fat}</p>
                       </div>
                       <div className="text-center">
-                        <p className="text-gray-600 text-sm">Fiber</p>
-                        <p className="font-bold text-popbite-brown">{twoGrainProduct.nutritionalInfo.fiber}</p>
+                        <p className="text-gray-600 text-sm">Cholesterol</p>
+                        <p className="font-bold text-popbite-brown">{twoGrainProduct.nutritionalInfo.cholesterol}</p>
                       </div>
                     </div>
                   </div>

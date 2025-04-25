@@ -11,7 +11,7 @@ const About = () => {
       <main>
         <section className="bg-gradient-to-b from-orange-50 to-white py-12">
           <div className="container mx-auto px-4">
-            <h1 className="text-4xl font-bold mb-4">About Popbite</h1>
+            <h1 className="text-4xl font-bold mb-4">About PopBite</h1>
             <p className="text-lg text-gray-700 max-w-3xl">
               Learn about our journey to create the world's first dosa chips and revolutionize healthy snacking.
             </p>
@@ -34,36 +34,36 @@ const About = () => {
                 <p className="text-gray-700 mb-2">
                   The seeds of Popbite were planted when Vishal, after starting his first food venture in 2016, introduced handmade <b>dosa khakhras</b> – an innovative twist on traditional snacking. But handmade production had its limits: inconsistent quality, high labor costs, and poor shelf life. Rather than give up, the brothers went back to the drawing board. With Chirag’s background in mechanical engineering and manufacturing, they spent five long years building and breaking machines – five failed attempts, to be precise – before creating the <b>sixth and final version</b> : a fully automatic machine capable of producing high-quality, crispy dosa chips at scale.
                 </p>
-                <p className="text-gray-700 mb-2">That’s how <b>Popbite Consumer Pvt. Ltd.</b> was born
+                <p className="text-gray-700 mb-2">That’s how <b>Popbite Consumer Pvt. Ltd.</b> was born.
                 </p>
                 <p>Today, Popbite is <b>the world’s first and largest manufacturer of dosa chips, bringing South India’s beloved dosa to snack aisles across the globe – in a form that’s non fried, healtier choice to compared to traditional options, crispy, crunchy, and ready-to-eat.</b> We’re proud to be an Indian-origin brand taking our heritage global.
                 </p>
                 <p className="text-gray-700 mt-2">
-                  Popbite's manufacturing facility in Chikhli utilizes fully automated, patented technology to produce these innovative snacks. The company's mission is to revolutionize the Indian Fast-Moving Consumer Goods (FMCG) market by delivering nutritious and tasty ready-to-eat and instant snacks made from high-quality ingredients
+                  Popbite's manufacturing facility in Chikhli utilizes fully automated, patented technology to produce these innovative snacks. The company's mission is to revolutionize the Indian Fast-Moving Consumer Goods (FMCG) market by delivering nutritious and tasty ready-to-eat and instant snacks made from high-quality ingredients.
                 </p>
-                <p className="text-gray-700 mb-2">
+                <p className="text-gray-700 mt-2">
                   Our products are now enjoyed in <b>over eight plus countries</b>, and we’re just getting started.
                 </p>
               </div>
               
-              <div className="relative z-10 grid grid-cols-2 gap-6 mt-10">
+              <div className="relative z-10 grid grid-cols-2 gap-6 mt-20">
                 <img
-                  src="/lovable-uploads/banner1.jpg"
+                  src="/lovable-uploads/About_us/Banner1.jpg"
                   alt="Classic Salted Dosa Chips"
                   className="w-full h-auto shadow-lg rounded-lg transform hover:scale-100 transition-transform duration-300"
                 />
                 <img
-                  src="/lovable-uploads/banner2.jpg"
+                  src="/lovable-uploads/About_us/Banner2.jpg"
                   alt="Magic Masala Dosa Chips"
                   className="w-full h-auto shadow-lg rounded-lg transform hover:scale-100 transition-transform duration-300 mt-10"
                 />
                 <img
-                  src="/lovable-uploads/banner1.jpg"
+                  src="/lovable-uploads/About_us/Banner3.jpg"
                   alt="Classic Salted Dosa Chips"
                   className="w-full h-auto shadow-lg rounded-lg transform hover:scale-100 transition-transform duration-300"
                 />
                 <img
-                  src="/lovable-uploads/banner2.jpg"
+                  src="/lovable-uploads/About_us/Banner4.jpg"
                   alt="Magic Masala Dosa Chips"
                   className="w-full h-auto shadow-lg rounded-lg transform hover:scale-100 transition-transform duration-300 mt-10"
                 />
@@ -100,8 +100,8 @@ const About = () => {
                 </div>
               </div>
               <div className="order-1 lg:order-2">
-                <h2 className="text-3xl md:text-4xl font-bold text-popbite-brown mb-6">Our Mission & Values</h2>
-                <div className="space-y-4 text-gray-700">
+                <h2 className="text-3xl md:text-4xl font-bold text-popbite-brown mb-3">Our Mission & Values</h2>
+                <div className="space-y-2 text-gray-700">
                   <p>
                     At Popbite, we believe snacks can be <b>delicious and nutritious,</b> traditional yet modern, locally made yet globally loved. That’s why we focus on clean ingredients, smart manufacturing, and constant innovation – whether it’s the revolutionary dosa chips.
                   </p>
