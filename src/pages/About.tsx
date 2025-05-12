@@ -48,29 +48,29 @@ const About = () => {
               
               <div className="relative z-10 grid grid-cols-2 gap-6 mt-20">
                 <img
-                  src="/lovable-uploads/About_us/Banner1.jpg"
+                  src="/compressed/About_us/Banner1.webp"
                   alt="Classic Salted Dosa Chips"
                   className="w-full h-auto shadow-lg rounded-lg transform hover:scale-100 transition-transform duration-300"
                 />
                 <img
-                  src="/lovable-uploads/About_us/Banner2.jpg"
+                  src="/compressed/About_us/Banner2.webp"
                   alt="Magic Masala Dosa Chips"
                   className="w-full h-auto shadow-lg rounded-lg transform hover:scale-100 transition-transform duration-300 mt-10"
                 />
                 <img
-                  src="/lovable-uploads/About_us/Banner3.jpg"
+                  src="/compressed/About_us/Banner3.webp"
                   alt="Classic Salted Dosa Chips"
                   className="w-full h-auto shadow-lg rounded-lg transform hover:scale-100 transition-transform duration-300"
                 />
                 <img
-                  src="/lovable-uploads/About_us/Banner4.jpg"
+                  src="/compressed/About_us/Banner4.webp"
                   alt="Magic Masala Dosa Chips"
                   className="w-full h-auto shadow-lg rounded-lg transform hover:scale-100 transition-transform duration-300 mt-10"
                 />
               </div>
               {/* <div className="grid grid-cols-1 gap-4">
                 <img
-                  src="/lovable-uploads/vision.jpg"
+                  src="/compressed/vision.jpg"
                   alt="Popbite Classic Salted"
                   className="rounded-lg shadow-lg w-full h-auto"
                 />
@@ -85,14 +85,14 @@ const About = () => {
                 <div className="relative z-10 grid grid-cols-2 gap-16">
                   <div className="rounded-lg overflow-hidden shadow-2g">
                     <img
-                      src="/lovable-uploads/About_us/Misson1.jpg"
+                      src="/compressed/About_us/Misson1.webp"
                       alt="Our Values"
                       className="w-full h-auto shadow-lg rounded-lg transform hover:scale-100 transition-transform duration-300"
                     />
                   </div>
                   <div className="rounded-lg overflow-hidden shadow-2g mt-6">
                     <img
-                      src="/lovable-uploads/About_us/Misson2.jpg"
+                      src="/compressed/About_us/Misson2.webp"
                       alt="Our Values"
                       className="w-full h-auto shadow-lg rounded-lg transform hover:scale-100 transition-transform duration-300 mt-10"
                     />

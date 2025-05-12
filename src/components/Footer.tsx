@@ -10,7 +10,7 @@ const Footer = () => {
           {/* Brand Column */}
           <div className="space-y-4">
             <img 
-                src="/lovable-uploads/logo.png" 
+                src="/compressed/logo.webp" 
                 alt="Popbite Logo" 
                 className="h-16 bg-white p-2 rounded-lg" 
               />

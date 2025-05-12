@@ -18,7 +18,7 @@ const Navbar = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center">
             <img 
-              src="/lovable-uploads/logo2.png" 
+              src="/compressed/logo2.webp" 
               alt="Popbite Logo" 
               className="h-12 md:h-16" 
             />
@@ -91,10 +91,10 @@ const Navbar = () => {
             >
               Contact
             </Link>
-            <Button className="bg-popbite-orange hover:bg-popbite-red text-white w-full">
+            {/* <Button className="bg-popbite-orange hover:bg-popbite-red text-white w-full">
               <ShoppingBag className="h-4 w-4 mr-2" />
               Shop Now
-            </Button>
+            </Button> */}
           </div>
         </div>
       )}

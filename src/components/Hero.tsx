@@ -37,25 +37,25 @@ const Hero = () => {
           </div>
           <div className="relative">
             <div className="absolute -top-4 -left-4 w-24 h-24 bg-popbite-yellow rounded-full opacity-60 blur-lg"></div>
-            <div className="absolute -bottom-8 -right-8 w-32 h-32 bg-popbite-orange rounded-full opacity-60 blur-xl"></div>
+            <div className="absolute -bottom-8 -right-4 w-32 h-32 bg-popbite-orange rounded-full opacity-60 blur-xl"></div>
             <div className="relative z-10 grid grid-cols-2 gap-4">
               <img 
-                src="/lovable-uploads/banner1.jpg" 
+                src="/compressed/banner1.webp" 
                 alt="Classic Salted Dosa Chips" 
                 className="w-full h-auto shadow-lg rounded-lg transform hover:scale-100 transition-transform duration-300"
               />
               <img 
-                src="/lovable-uploads/banner2.jpg" 
+                src="/compressed/banner2.webp" 
                 alt="Magic Masala Dosa Chips" 
                 className="w-full h-auto shadow-lg rounded-lg transform hover:scale-100 transition-transform duration-300 mt-6"
               />
               <img 
-                src="/lovable-uploads/banner3.jpg" 
+                src="/compressed/banner3.webp" 
                 alt="Tomato Twist Dosa Chips" 
                 className="w-full h-auto shadow-lg rounded-lg transform hover:scale-100 transition-transform duration-300"
               />
               <img 
-                src="/lovable-uploads/banner4.jpg" 
+                src="/compressed/banner4.webp" 
                 alt="Pani Puri Dosa Chips" 
                 className="w-full h-auto shadow-lg rounded-lg transform hover:scale-100 transition-transform duration-300 mt-6"
               />

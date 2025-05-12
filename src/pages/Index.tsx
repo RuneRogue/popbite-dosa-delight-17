@@ -90,7 +90,7 @@ const Index = () => {
               {/* Multi Grain Product */}
               <div className="bg-orange-50 from-popbite-orange/10 to-popbite-cream rounded-2xl p-8 card-hover">
                 <img
-                  src="/lovable-uploads/Cat3.png"
+                  src="/compressed/Cat3.webp"
                   alt="Multi Grain Dosa Chips"
                   className="rounded-lg h-64 object-cover object-center mx-auto mb-6"
                 />
@@ -144,7 +144,7 @@ const Index = () => {
               {/* Two Grain Product */}
               <div className="bg-orange-50 from-popbite-orange/10 to-popbite-cream rounded-2xl p-8 card-hover">
                 <img
-                  src="/lovable-uploads/Cat2.png"
+                  src="/compressed/Cat2.webp"
                   alt="Multi Grain Dosa Chips"
                   className="rounded-lg h-64 object-cover object-center mx-auto mb-6"
                 />
